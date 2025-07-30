@@ -41,8 +41,8 @@ The transaction will include one or more items being sold, along with relevant c
     }
   ]
 }
-📥 Sample Response
-json
+Sample Response
+JSON
 {
   "msg": "Transaction recorded",
   "transaction": {
