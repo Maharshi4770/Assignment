@@ -21,7 +21,7 @@ The transaction will include one or more items being sold, along with relevant c
 - Used a **modular structure** for maintainable and scalable code.
 - Implemented **JWT authentication** for buyer and farmer routes to secure user-specific operations.
 - Used **Zod** for input validation across all request bodies to ensure data accuracy.
-- Server calculates charges like **market fee (1%)**, **commission (2%)**, and **tax (5%)** automatically based on item details.
+- Server calculates charges like *User-Charge**, **Labour Charge**, and **so on.** automatically based on item details.
 - All transaction-related data (farmer, buyer, items, charges) is stored in a single document for consistency.
 
 ## 📦 Sample Request and Output Format (Optional)
