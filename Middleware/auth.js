@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken')
 function authmiddleware(password) {
     return function (req, res, next) {
         const token = req.headers.token;
+        const token1 = req.header;
         let decoded;
         try {
             decoded = jwt.verify(token, password);
